@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars — find these IDs in your Spacelift UI.
+# Never commit the real terraform.tfvars.
+
+worker_pool_id                = "01EXAMPLE_WORKER_POOL_ID"
+policy_ignore_outside_root_id = "01EXAMPLE_POLICY_ID"
+policy_trivy_id               = "01EXAMPLE_TRIVY_POLICY_ID"
+shared_context_id             = "01EXAMPLE_CONTEXT_ID"
