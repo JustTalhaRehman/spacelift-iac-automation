@@ -1,0 +1,19 @@
+# Account definitions used by Spacelift stack automation.
+# Each key maps to a Spacelift space. Stack names are prefixed with the product name.
+# Replace space_id values with your real Spacelift space IDs.
+
+my-org-aws-management:
+  account_id: "111111111111"
+  space_id: my-org-aws-management-01EXAMPLE
+
+my-org-aws-production:
+  account_id: "333333333333"
+  space_id: my-org-aws-production-01EXAMPLE
+
+my-org-aws-staging:
+  account_id: "444444444444"
+  space_id: my-org-aws-staging-01EXAMPLE
+
+my-org-aws-shared-services:
+  account_id: "222222222222"
+  space_id: my-org-aws-shared-services-01EXAMPLE
